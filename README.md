@@ -26,7 +26,7 @@ This is a Application developed for a college for maintaining information relate
 - Register college
 - get the List of College with all Details 
 - get the College details with Course Name
-
+- ##### Many more coming soon
 
 ## Installation and Run  :-
 
