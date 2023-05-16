@@ -1,5 +1,7 @@
 package com.college.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -28,6 +30,7 @@ public class CourseFee {
     @PositiveOrZero(message = "Course fee must be a positive value or zero")
     private int courseFee;
 
+    @JsonIgnore
     @OneToOne
     @JoinColumn(name = "college_id")
     private College college;
